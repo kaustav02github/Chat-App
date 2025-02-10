@@ -16,11 +16,30 @@ This project is a learning exercise to understand and implement real-time commun
     ```bash
     npm install
     ```
-4. Start the server:
+4. Navigate to the client directory and install the dependencies:
+    ```bash
+    cd client
+    npm install
+    ```
+5. Start the client:
     ```bash
     npm start
     ```
-5. Open your browser and navigate to `http://localhost:3000`.
+6. Open a new terminal, navigate back to the project directory, and then to the server directory:
+    ```bash
+    cd ..
+    cd server
+    ```
+7. Install the server dependencies:
+    ```bash
+    npm install
+    ```
+8. Start the server:
+    ```bash
+    npm start
+    ```
+9. Open your browser and navigate to `http://localhost:5173/`.
+
 
 ## Technologies Used
 
